@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+
+.menu .title{
+    height: 100px;
+    width: 200px;
+    font-size: xx-large;
+    font-weight: bolder;
+    position: relative;
+    left: 40vw;
+    
+}
+
+ .menu .title .underline{
+    height: 7px;
+    width: 100%;
+    background-color: rgb(182, 182, 53);
+ }
+.section-center{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+    row-gap: 20px;
+
+}
+ .menu-item{
+      height: 152px;
+      width: 600px;
+      /* border: 1px solid red; */
+      display: flex;
+      column-gap: 10px;
+      
+      
+ }
+
+  .menu .btn-container{
+   display: flex;
+   justify-content: center;
+   column-gap: 10px;
+   margin-bottom: 20px;
+ }
+
+
+ 
+ .menu .btn-container .btn{
+   padding: 10px;
+   border: 2px solid rgb(179, 179, 34);
+   border-radius: 3px;
+ }
+
+ .menu .btn-container .btn:hover{
+   background-color: rgb(179, 179, 34);
+   color: white;
+ }
+
+
+ .menu-item img{
+    border: 5px solid rgb(197, 197, 71);
+    border-radius: 5px;
+ }
+
+ .item-info header{
+    display: flex;
+    justify-content: start;
+    column-gap: 100px;
+    font-size: x-large;
+ }
+
+ .item-info header .price{
+    color: rgb(182, 182, 81);
+ }
+
+ .item-info p{
+    color: grey;
+ }
